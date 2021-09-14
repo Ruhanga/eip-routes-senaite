@@ -16,6 +16,7 @@
       <maven.compiler.target>1.8</maven.compiler.target>
       <camelVersion>3.3.0</camelVersion>
       <testContainersVersion>1.15.2</testContainersVersion>
+      <openmrsWatcherVersion>3.0.0-SNAPSHOT</openmrsWatcherVersion>
       <eipClientVersion>1.0.0-SNAPSHOT</eipClientVersion>
    </properties>
 
@@ -43,14 +44,14 @@
         <groupId>org.openmrs.eip</groupId>
         <artifactId>openmrs-watcher</artifactId>
         <type>test-jar</type>
-        <version>2.0.0-SNAPSHOT</version>
+        <version>${openmrsWatcherVersion}</version>
         <scope>test</scope>
      </dependency>
      <dependency>
          <groupId>org.openmrs.eip</groupId>
          <artifactId>commons</artifactId>
          <type>test-jar</type>
-         <version>2.0.0-SNAPSHOT</version>
+         <version>${openmrsWatcherVersion}</version>
          <scope>test</scope>
      </dependency>
       <dependency>
